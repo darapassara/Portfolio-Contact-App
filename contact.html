@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Portfolio with JSON</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="landing is-preload">
+
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<h1><a href="index.html">PORTFOLIO</a></h1>
+			<nav id="nav">
+				<ul>
+					<li class="special">
+						<a href="#menu" class="menuToggle"><span>Menu</span></a>
+						<div id="menu">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="contact.html">Contact</a></li>
+
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+
+		<!-- Three -->
+		<section id="three" class="wrapper style3 special">
+			<div class="inner">
+				<header class="major">
+					<h2>CONTACT</h2>
+					<p>BE AVAILABLE ALL DAY.</p>
+				</header>
+				<ul>
+					<div class="container mt-4">
+						<form id="contact-form">
+							<div class="form-group">
+								<label for="subject">SUBJECT</label>
+								<input type="text" placeholder="Subject" id="subject" class="form-control">
+							</div>
+							<br>
+							<div class="form-group">
+								<label for="name">NAME</label>
+								<input type="text" placeholder="Sender Name" id="name" class="form-control">
+							</div>
+							<br>
+							<div class="form-group">
+								<label for="gender">GENDER</label>
+								<select id="gender" name="gender">
+									<option value="male">Male</option>
+									<option value="female">Female</option>
+									<option value="other">Other</option>
+								</select>
+							</div>
+							<br>
+							<div class="form-group">
+								<label for="phone">PHONE</label>
+								<input type="text" placeholder="Phone Number" id="phone" class="form-control">
+							</div>
+							<br>
+							<div class="form-group">
+								<label for="email">EMAIL</label>
+								<input type="text" placeholder="Email" id="email" class="form-control">
+							</div>
+							<br>
+							<div class="form-group">
+								<label for="facebook">FACEBOOK</label>
+								<input type="text" placeholder="Facebook URL" id="facebook" class="form-control">
+							</div>
+							<br>
+							<input type="submit" value="submit" class="btn btn-primary btn-block">
+						</form>
+						<!-- 8. table for output     -->
+						<table class="table table-striped mt-5">
+							<thead>
+								<tr>
+									<th>SUBJECT</th>
+									<th>NAME</th>
+									<th>GENDER</th>
+									<th>PHONE</th>
+									<th>EMAIL</th>
+									<th>FACEBOOK</th>
+									<th></th>
+								</tr>
+							</thead>
+							<!-- 9. add placeholder to insert list of book       -->
+							<tbody id="contact-list"></tbody>
+						</table>
+					</div>
+				</ul>
+			</div>
+		</section>
+
+
+		<!-- Footer -->
+		<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://web.facebook.com/justd.801" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon fa-phone"><span class="label">PHONE</span></a></li>
+					<li><a href="mailto:name@yourdomain.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; APASSARA RUEANGMUEANG</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+	
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="main.js"></script>
+	<script>
+	
+	function dontGo(event) {
+		event.preventDefault();
+	}
+	
+	document.getElementById("clickMe").addEventListener("click",dontGo);
+	
+	</script>   
+
+</body>
+
+</html>
